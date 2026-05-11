@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #002855;
+  --color-secondary: #FFB81C;
+  --color-accent: #FFB81C;
+  --color-neutral-bg: #F8FAFC;
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-bg text-slate-800 font-sans;
+  }
+}
+

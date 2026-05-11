@@ -1,0 +1,10 @@
+{
+  "name": "RTU Marketplace",
+  "description": "A premium, safe, and student-only marketplace for Rizal Technological University (RTU) students to buy, sell, and trade within the campus community.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
